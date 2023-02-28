@@ -1,13 +1,15 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
 import HelloWorld from "./components/HelloWorld.vue";
+
 </script>
 
 <template>
+  
   <header>
       
     <div class="wrapper">
-      <HelloWorld msg="Marketplace" />
+      <HelloWorld msg="Clases de Vue3.js" />
     
       <nav>
         <RouterLink to="/">Home</RouterLink>
@@ -19,12 +21,14 @@ import HelloWorld from "./components/HelloWorld.vue";
   </header>
 
   <RouterView />
+  
 </template>
 
 <style scoped>
 header {
   line-height: 1.5;
   max-height: 100vh;
+  background-color: rgb(158, 229, 206);
 }
 
 .logo {

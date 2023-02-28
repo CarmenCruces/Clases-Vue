@@ -3,6 +3,7 @@ import HomeView from "../views/HomeView.vue";
 import MyView from "../views/MyView.vue";
 import SecondView from "../views/SecondView.vue";
 
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [

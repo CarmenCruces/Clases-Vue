@@ -40,7 +40,7 @@ export default {
         <div v-if="adding">
             <input 
                 id="add-movie-input"
-                @keyup.enter="addMovie()"
+                @keyup.enter="addMovie()" 
                 v-model="newTitle"
                 placeholder="Add a movie"
             />

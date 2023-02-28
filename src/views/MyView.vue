@@ -1,5 +1,7 @@
 
 <script>
+import DirectiveVFor from '../components/myComponents/directives/DirectiveVFor.vue';
+import DirectiveVModel from '../components/myComponents/directives/DirectiveVModel.vue';
 import DirectiveVIf from '../components/myComponents/directives/DirectiveVIf.vue';
 import DirectiveVShow from '../components/myComponents/directives/DirectiveVShow.vue';
 import RawHtmlData from '../components/myComponents/RawHtmlData.vue';
@@ -12,13 +14,18 @@ export default {
     <div>
         <h1>My Single Page from FemCoderMA</h1>
         ------------------------
-        <RawHtmlData/>
+        <RawHtmlData />
         ------------------------
         <SingleComponent />
         ------------------------
         <DirectiveVShow />
         ------------------------
         <DirectiveVIf />
+        ------------------------
+        <DirectiveVModel />
+        ------------------------
+        <DirectiveVFor />
+
     </div>
 </template>
 
