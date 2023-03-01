@@ -15,7 +15,7 @@ export default {
         <ul>
             <template v-for="(country, key) in list" :key="key">
             <li :id="[key + 1]"> {{ key }}: {{ country }}</li>
-        </template>
+            </template>
         </ul>
     </div>
 
